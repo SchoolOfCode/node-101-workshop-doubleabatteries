@@ -1,0 +1,20 @@
+{
+  "name": "101-workshop-doubleabatteries",
+  "version": "1.0.0",
+  "description": "git pull ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/node-101-workshop-doubleabatteries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/node-101-workshop-doubleabatteries/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-doubleabatteries#readme"
+}

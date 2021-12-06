@@ -1,21 +1,6 @@
-let myCollection = [
-  {
-    name: "School of Code mug",
-    count: 1,
-    whatILike: "It has my cute pixel character on it!"
-  },
-  {
-    name: "School of Code hat",
-    count: 2,
-    whatILike: "An often overlooked fashion accessory"
-  },
-  {
-    name: "School of Code pillow",
-    count: 1,
-    whatILike: "Eat. Sleep. Code. Repeat :)"
-  }
-];
-console.log(myCollection);
+import myCollection from './collection.js'; 
+
+//console.log(myCollection);
 
 function describeItem(i) {
 if (myCollection[i].count === 1) {
@@ -23,4 +8,14 @@ if (myCollection[i].count === 1) {
 }
 else console.log(`I have ${ myCollection[i].count } ${myCollection[i].name}s. Heres what I like about them: ${myCollection[i].whatILike}`);
 };
-describeItem(0);
+//describeItem(0);
+
+function describeCollection(array){
+
+  for(let i=0; i<array.length; i++){
+     describeItem(i);
+  }
+ 
+}
+
+describeCollection(myCollection);
